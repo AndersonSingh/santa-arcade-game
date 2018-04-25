@@ -1,0 +1,64 @@
+#wrapper{
+    width:805px; 
+    margin: 0 auto; 
+}
+
+#topLogo{
+    width: 754px; 
+    margin: 0 auto;
+}
+
+#subLogo{
+    width:360px;
+    margin: 0 auto;
+}
+
+#instructions{
+    width: 700px; 
+    margin: 0 auto;
+}
+
+#controls{
+    width: 514px;
+    margin: 0 auto; 
+}
+
+#points{
+    width: 650px; 
+    margin: 0 auto;
+}
+
+canvas{
+    border: 1px solid black;
+    background-color: black;
+    
+    position: relative; 
+    width: 800px;
+    height: 600px;
+    z-index: 0;
+   background: url(../img/background.png) repeat-x;
+    
+    -webkit-animation: scrollbackground 5s linear infinite; 
+    animation: scrollbackground 5s linear infinite; 
+    
+    border: 5px solid #3399FF;
+    border-radius: 8px; 
+}
+
+body{
+    background: url(C:/Users/Anderson/Desktop/Game%20Development%20HTML5%20JS%20CSS3/img/light_wool.png);   
+}
+
+
+
+@-webkit-keyframes scrollbackground{
+       
+    0%   {background-position: 0 0;}
+    100% {background-position: -640px 0;}    
+}
+
+@keyframes scrollbackground{
+    
+    0%   {background-position: 0 0;}
+    100% {background-position: -640px 0;}    
+}

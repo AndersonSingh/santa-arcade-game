@@ -1,0 +1,32 @@
+<!DOCTYPE html> 
+
+<html>
+    <head>
+        <title>HTML5 North Pole Defense</title>
+        
+        <script type="text/javascript" src="js/code/game.js"></script>
+        
+        <script type="text/javascript" src="js/lib/easel.js"></script>
+        
+        <script type="text/javascript" src="js/lib/SoundJS.js"></script>
+        
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        
+        <meta charset="utf-8">
+    </head>
+    
+    <body onload="init();"> 
+        <div id="wrapper">
+            
+            <div id="topLogo"><img src="img/logo.png" alt="north pole defense logo"></div>
+            <div id="subLogo"><img src="img/subheading.png" alt="north pole defense subheading"></div>
+            <canvas id="canvas" width="800px" height="600px"></canvas>
+            
+            <input type="button" id="toggleBtn" value="Toggle FPS" onclick="toggleFPS();"></input>
+            <input type="button" id="restartGame" value="Play Again" onclick="reloadGame();"></input>
+            <div id="controls"><img src="img/controls.png" alt="north pole denfense controls"></div>
+            <div id="instructions"><img src="img/instructions_full.png" alt="north pole defense instructions"></div>
+            <div id="points"><img src="img/points.png" alt="north pole defense instructions"></div>
+        </div>
+    </body>
+</html>
